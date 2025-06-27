@@ -7,8 +7,8 @@ import { path } from '@vuepress/utils'
 
 module.exports = {
   lang: 'nl_BE',
-  title: 'IoT Lab Basic',
-  description: 'Curus voor Graduaat studenten Internet Of Things VIVES Kortrijk',
+  title: 'ET Robotics',
+  description: 'Curus voor Bachelor studenten Energie Technologie VIVES Kortrijk',
    head: [
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?familiy=Material+Icons' }],
     ['script', { src: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML', async: true }]
@@ -19,8 +19,8 @@ module.exports = {
     logo: 'https://www.vives.be/sites/default/files/uploads/huisstijl/Logo VIVES Hogeschool - Smile.png',
     navbar: [
       { text: 'Toledo', link: 'https://toledo.kuleuven.be/portal' },
-      { text: 'Report Issue', link: 'https://github.com/WimDejonghe/iot-lab-basic-python/issues' },
-      { text: 'Organization', link: 'https://github.com/WimDejonghe/iot-lab-basic-python' }
+      { text: 'Report Issue', link: 'https://github.com/WimDejonghe/et-robotics/issues' },
+      { text: 'Organization', link: 'https://github.com/WimDejonghe/et-robotics' }
     ],
     sidebar: [
       {
@@ -120,7 +120,7 @@ module.exports = {
      
     ],
     sidebarDepth: 1,
-    repo: 'WimDejonghe/iot-lab-basic-python',
+    repo: 'WimDejonghe/et-robotics',
     docsDir: 'docs',
     docsBranch: 'master'
   }),
