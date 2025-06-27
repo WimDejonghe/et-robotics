@@ -17,7 +17,7 @@ potentiometer = ADC(Pin(36), atten=ADC.ATTN_11DB)
 while True:
     potWaarde = potentiometer.read() #leest 0-4095
     print ('De analoge waarde =', potWaarde)
-    led1_pwm.duty(int(potWaarde/4)) #duty 0-1023
+    led1_pwm.duty(int(potWaarde/4)) #duty 0-1024
 ```
 
 Een ander voorbeeld laat de LED in helderheid toenemen tot maximum en terug afnemen tot nul, en dit repetitief.
