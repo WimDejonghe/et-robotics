@@ -80,7 +80,7 @@ module.exports = {
         ]
       },
       {
-        text: 'Starten met MicroPython',
+        text: 'MicroPython',
         children: [
          
           '/arduino_c/README.md',
@@ -126,6 +126,15 @@ module.exports = {
           '/j-groteP/03-fet/README.md',
           '/j-groteP/04-hbrug/README.md',
           '/j-groteP/05-servo/README.md',
+        ]
+      },
+      {
+        text: 'Sensoren',
+        children: [
+          '/k-sensoren/00-intro/README.md',
+          '/k-sensoren/01-temp/README.md',
+          '/k-sensoren/02-licht/README.md',
+          '/k-sensoren/03-dist/README.md',
         ]
       },
 
