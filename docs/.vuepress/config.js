@@ -8,7 +8,7 @@ import { path } from '@vuepress/utils'
 module.exports = {
   lang: 'nl_BE',
   title: 'ET Robotics',
-  description: 'Curus voor Bachelor studenten Energie Technologie VIVES Kortrijk',
+  description: 'Cursus voor Bachelor studenten Energie Technologie VIVES Kortrijk',
    head: [
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?familiy=Material+Icons' }],
     ['script', { src: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML', async: true }]
@@ -71,6 +71,15 @@ module.exports = {
         ]
       },
       {
+        text: 'Logische poorten',
+        children: [
+          '/i-logic/README.md',
+          
+          
+                   
+        ]
+      },
+      {
         text: 'Starten met MicroPython',
         children: [
          
@@ -109,14 +118,17 @@ module.exports = {
         ]
       },
       {
-        text: 'Logische poorten',
+        text: 'Sturen/schakelen van grotere vermogens',
         children: [
-          '/i-logic/README.md',
-          
-          
-                   
+          '/j-groteP/00-intro/README.md',
+          '/j-groteP/01-transistor/README.md',
+          '/j-groteP/02-driver/README.md',
+          '/j-groteP/03-fet/README.md',
+          '/j-groteP/04-hbrug/README.md',
+          '/j-groteP/05-servo/README.md',
         ]
       },
+
      
     ],
     sidebarDepth: 1,
