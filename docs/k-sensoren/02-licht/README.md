@@ -1,5 +1,4 @@
-# Gebruik van Lichtsensoren met een ESP32 en MicroPython
-
+# Lichtsensoren
 Lichtsensoren, zoals de LDR (Light Dependent Resistor) of een digitale lichtsensor (zoals de BH1750), kunnen eenvoudig worden aangesloten op een ESP32 en uitgelezen met MicroPython.
 
 ## Benodigdheden
