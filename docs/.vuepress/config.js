@@ -7,7 +7,7 @@ import { path } from '@vuepress/utils'
 
 module.exports = {
   lang: 'nl_BE',
-  title: 'ET Robotics',
+  title: 'Lab ET Robotics',
   description: 'Cursus voor Bachelor studenten Energie Technologie VIVES Kortrijk',
    head: [
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/icon?familiy=Material+Icons' }],

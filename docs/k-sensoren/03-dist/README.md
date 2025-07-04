@@ -1,4 +1,4 @@
-# Afstand sensoren
+# Afstandssensoren
 
 Afstandssensoren meten de afstand tot een object. Veelgebruikte types zijn ultrasone sensoren (zoals de HC-SR04) en infraroodsensoren. Hieronder vind je informatie en voorbeelden voor beide soorten.
 
