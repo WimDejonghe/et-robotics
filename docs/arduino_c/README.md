@@ -49,14 +49,28 @@ Deze cursus is ontworpen om beginners kennis te laten maken met de basisprincipe
 
 ### 3.1 Control Structures
 
-#### Selecties (Voorwaardelijke logica)
+**Selecties (Voorwaardelijke logica)**
+
+De **`if`-conditie:** is een van de belangrijkste onderdelen in elke programmeertaal. In MicroPython (en standaard Python) gebruik je **`if`** om beslissingen te maken in je code. Hieronder bespreken we de verschillende vormen van de **`if`-conditie:** met voorbeelden die je op een ESP32 met MicroPython kunt gebruiken.
+
 - **`if`-statement:**
   - Een `if`-statement voert code uit als een bepaalde voorwaarde waar is. Bijvoorbeeld:
     ```python
     if (temperatuur > 25):
+        print("Het is warm!")
         Pin.value(HIGH) # Zet LED aan als temperatuur groter is dan 25 graden
-    
     ```
+> :bulb: **Uitleg:**    
+> Als de temperatuur groter is dan 25, zal de ESP32 "Het is warm!" printen in de seriële console en een pin digitaal HOOG zetten.
+
+```mermaid
+graph TD
+    Start --> Vraag{Temperatuur > 25?}
+    Vraag -- Ja --> Warm[Print "Het is warm!"]
+    
+```
+
+
 - **`else if` en `else`:**
   - Gebruik `else if` en `else` om alternatieve acties te definiëren als de eerste voorwaarde niet waar is.
     ```python
@@ -65,6 +79,66 @@ Deze cursus is ontworpen om beginners kennis te laten maken met de basisprincipe
     else:
         Pin.value(LOW)
     
+    ```
+
+```mermaid
+  graph TD
+      Start --> Vraag{Temperatuur > 25?}
+      Vraag -- Ja --> Warm[Print "Het is warm!"]
+      Vraag -- Nee --> Koud[Print "Het is koel of koud"]
+```
+
+  - **`if` - `elif` - `else`:** 
+  - Met `elif` kun je meerdere condities controleren.
+    ```python
+    temperatuur = 22
+
+  if temperatuur > 30:
+    print("Hittegolf!")
+  elif temperatuur > 20:
+    print("Lekker weer.")
+  else:
+    print("Neem een jas mee.")
+    ```
+  - **Geneste `if`-condities**
+  - Een `if`-conditie binnenin een andere `if`.
+  ```python
+  temperatuur = 28
+  luchtvochtigheid = 85
+
+  if temperatuur > 25:
+    if luchtvochtigheid > 80:
+        print("Benauwd weer.")
+    else:
+        print("Warm maar droog.")
+
+  ```
+  - **`if` met logische operatoren (`and`, `or`, `not`)**
+  - `and` – beide condities moeten waar zijn:
+  ```python
+  temperatuur = 28
+  luchtvochtigheid = 60
+
+  if temperatuur > 25 and luchtvochtigheid < 70:
+    print("Perfect weer!")
+
+  ```
+  - `or` – minstens één conditie moet waar zijn:
+  ```python
+  beweging = True
+  lichtniveau = 10  # laag
+
+  if beweging or lichtniveau < 20:
+    print("Lamp aan.")
+
+  ```
+  - `not` – keert een conditie om:
+  ```python
+  knop_ingedrukt = False
+
+  if not knop_ingedrukt:
+    print("Wachten op knop...")
+
     ```
 
 ### 3.2 Iteraties (Lussen)
