@@ -76,9 +76,10 @@ De **`if`-conditie:** is een van de belangrijkste onderdelen in elke programmeer
 
 
 
-  - **`if` - `elif` - `else`:** 
-    - Met `elif` kun je meerdere condities controleren.
-    ```python
+- **`if` - `elif` - `else`:** 
+  - Met `elif` kun je meerdere condities controleren.
+  
+```python
     temperatuur = 22
 
   if temperatuur > 30:
@@ -87,10 +88,12 @@ De **`if`-conditie:** is een van de belangrijkste onderdelen in elke programmeer
     print("Lekker weer.")
   else:
     print("Neem een jas mee.")
-    ```
-  - **Geneste `if`-condities**
-    - Een `if`-conditie binnenin een andere `if`.
-  ```python
+  
+```
+- **Geneste `if`-condities**
+  - Een `if`-conditie binnenin een andere `if`.
+  
+```python
   temperatuur = 28
   luchtvochtigheid = 85
 
@@ -100,34 +103,35 @@ De **`if`-conditie:** is een van de belangrijkste onderdelen in elke programmeer
     else:
         print("Warm maar droog.")
 
-  ```
-  - **`if` met logische operatoren (`and`, `or`, `not`)**
-    - `and` – beide condities moeten waar zijn:
-  ```python
+```
+- **`if` met logische operatoren (`and`, `or`, `not`)**
+  - `and` – beide condities moeten waar zijn:
+```python
   temperatuur = 28
   luchtvochtigheid = 60
 
   if temperatuur > 25 and luchtvochtigheid < 70:
     print("Perfect weer!")
 
-  ```
-    - `or` – minstens één conditie moet waar zijn:
-  ```python
+```
+  - `or` – minstens één conditie moet waar zijn:
+
+```python
   beweging = True
   lichtniveau = 10  # laag
 
   if beweging or lichtniveau < 20:
     print("Lamp aan.")
 
-  ```
-    - `not` – keert een conditie om:
-  ```python
+```
+  - `not` – keert een conditie om:
+```python
   knop_ingedrukt = False
 
   if not knop_ingedrukt:
     print("Wachten op knop...")
 
-    ```
+```
 
 **Flowcharts (grafische weergave selecties)**
 Omdat logische digitale selecties behoorlijk complex kunnen zijn bestaan er grafische hulmiddelen om die te verduidelijken. Deze kunnen zeker ook helpen tijdens de ontwerpfase. In principe kan iedereen deze begrijpen ook zonder programmeerervaring. 
