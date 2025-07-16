@@ -55,24 +55,24 @@ De **`if`-conditie:** is een van de belangrijkste onderdelen in elke programmeer
 
 - **`if`-statement:**
   - Een `if`-statement voert code uit als een bepaalde voorwaarde waar is. Bijvoorbeeld:
-    ```python
+```python
     if (temperatuur > 25):
         print("Het is warm!")
         Pin.value(HIGH) # Zet LED aan als temperatuur groter is dan 25 graden
-    ```
+```
 > :bulb: **Uitleg:**    
 > Als de temperatuur groter is dan 25, zal de ESP32 "Het is warm!" printen in de seriële console en een pin digitaal HOOG zetten.
 
 
 - **`if` en `else`:**
   - Gebruik `if` en `else` om alternatieve acties te definiëren als de eerste voorwaarde niet waar is.
-    ```python
+```python
     if (temperatuur > 25):
         Pin.value(HIGH)
     else:
         Pin.value(LOW)
     
-    ```
+```
 
 
 

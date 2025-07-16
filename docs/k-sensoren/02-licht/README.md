@@ -56,3 +56,18 @@ while True:
 - Gebruik een analoge pin voor LDR's.
 - Voor nauwkeurige metingen is een digitale sensor zoals de BH1750 aan te raden.
 - Kalibreer de sensorwaarden voor jouw toepassing.
+
+## Opdracht
+
+<div style="background-color:darkgreen; text-align:left; vertical-align:left; padding:15px;">
+<p style="color:lightgreen; margin:10px">
+Opdracht: Meet lichtsterkte.
+<ul style="color: white;">
+<li>Kies een sensor, bestuur deze adhv opzoekingen.</li>
+<li>Bouw de schakeling.</li>
+<li>Schrijf een programma voor de microcontroller dat de waarde van de sensor opvraagt.</li>
+<li>Stuur een LED aan wanneer te weinig licht is (denk aan automatische verlichting bij een wagen).</li>
+<li>Toon de werking aan de docent.</li>
+</ul>
+</p>
+</div>

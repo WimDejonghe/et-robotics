@@ -85,4 +85,17 @@ while True:
 - Automatische deuren
 - Afstand meten tot objecten in slimme systemen
 
-Meer informatie over andere sensoren vind je in de volgende
+## Opdracht
+
+<div style="background-color:darkgreen; text-align:left; vertical-align:left; padding:15px;">
+<p style="color:lightgreen; margin:10px">
+Opdracht: Meet afstand.
+<ul style="color: white;">
+<li>Kies een sensor, bestuur deze adhv opzoekingen.</li>
+<li>Bouw de schakeling.</li>
+<li>Schrijf een programma voor de microcontroller dat de waarde van de sensor opvraagt.</li>
+<li>Stuur een LED aan wanneer de afstand te klein is (denk aan automatische achteruitrij sensoren bij een wagen).</li>
+<li>Toon de werking aan de docent.</li>
+</ul>
+</p>
+</div>
