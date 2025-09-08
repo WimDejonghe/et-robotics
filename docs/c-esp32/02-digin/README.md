@@ -162,7 +162,7 @@ Opdracht: Digitale ingang blokgolf. </p>
 <li style="color:white">Als de drukknop is ingedrukt moet er een blokgolfspanning op een uitgang gegenereerd worden met een periode van 100Hz met een duty cycle van 50% (Ton = Toff).</li>
 </ul>
 <p style="color:lightgreen; margin:10px">
-Visualiseer het resultaat met een oscilloscoop. Leg de werking uit van de oscilloscoop. Verklaar duidelijk wat Volt/div en Time/div is op basis van uw signalen. Zoek op wat duty cycle is en verklaar.
+Visualiseer het resultaat met een oscilloscoop. Leg de werking uit van de oscilloscoop. Verklaar duidelijk wat Volt/div en Time/div is op basis van uw signalen. Geef duidelijk aan wat periode(T) is van een signaal. Ook wat frequentie(f) is, waar zit de NUL-VOLT? Wat is de amplitude van het signaal? Zoek op wat duty cycle is en verklaar.
 </p>
 </div>
 
