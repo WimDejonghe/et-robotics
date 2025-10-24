@@ -154,7 +154,9 @@ Dit zijn de basislogische poorten die worden gebruikt in digitale schakelingen. 
 <div style="background-color:darkgreen; text-align:left; vertical-align:left; padding:15px;">
 <p style="color:lightgreen; margin:10px">
 Opdracht: Maak van iedere logische poort functie een werkend programma op de microcontroller zodat drukknoppen gebruikt worden als input voor een logische poort en een LED de uitgang. Combineer alle poorten in één en hetzelfde programma. Met twee drukknoppen die alle inputs van alle poorten bedienen en er zijn LED's op de shield voldoende om voor iedere output een LED aan te sturen.
+
 </p>
+<p>Je moet ervan uitgaan dat de drukknoppen zo worden geinterpreteerd dat een druk op een knop een 1 veroorzaakt in de verwerking naar een uitgang van een poort!!!</p>
 </div>
 
 ***
