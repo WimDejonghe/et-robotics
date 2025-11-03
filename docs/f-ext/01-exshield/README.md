@@ -74,8 +74,8 @@ while True:
 
 <div style="background-color:darkgreen; text-align:left; vertical-align:left; padding:15px;">
 <p style="color:lightgreen; margin:10px">
-Opdracht1: Maak een programma waarbij de spanning op de analoge ingang A2 wordt gelezen en doorgestuurd wordt naar een seriële monitor op de PC.<br>
-Sluit een potentiometer aan op de analoge ingang A2 via een breadbord.
+Opdracht1: Maak een programma waarbij de spanning op de analoge ingang A2 wordt gelezen en doorgestuurd wordt naar een seriële monitor (kan je gewoon uitvoeren door gebruik te maken van het "print"-commando) op de PC. Door te printen kan je de waarde zien in Thonny. <br>
+Maak gebruik van de ESP32-shield voor de potentiometer.
 </p>
 </div>
 
