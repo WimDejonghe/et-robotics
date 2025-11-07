@@ -75,7 +75,7 @@ while True:
 <div style="background-color:darkgreen; text-align:left; vertical-align:left; padding:15px;">
 <p style="color:lightgreen; margin:10px">
 Opdracht1: Maak een programma waarbij de spanning op de analoge ingang (je mag de potentiometer gebruiken van de shield) wordt gelezen en doorgestuurd wordt naar een seriële monitor (kan je gewoon uitvoeren door gebruik te maken van het "print"-commando) op de PC. Door te printen kan je de waarde zien in Thonny. <br>
-Maak gebruik van de ESP32-shield voor de potentiometer.
+Maak gebruik van de ESP32-shield voor de potentiometer. Verklaar het grootste getal!
 </p>
 </div>
 
