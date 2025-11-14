@@ -241,9 +241,14 @@ schakelaar.
 <p style="color:lightgreen; margin:10px">
 Opdracht: Transistor als schakelaar.
 <ul style="color: white;">
-<li>Bouw de schakeling.</li>
-<li>Schrijf een programma voor de microcontroller dat de lamp in een lus 3 seconden laat branden en nadien 3 seconden dooft. Herhaal het programma in een oneindige lus.</li>
+<li>Bouw de schakeling om vanuit een ESP32 een relais aan te sturen.</li>
+<li>Wat is de schakelspanning van het relais?</li>
+<li>Schrijf een programma voor de microcontroller dat een relais laat schakelen in een lus 3 seconden aan en nadien 3 seconden uit. Herhaal het programma in een oneindige lus.</li>
 <li>Toon de werking aan de docent.</li>
+<li>Leg de werking uit van een relais. Wat is een relais?</li>
+<li>Leg uit hoe je een lamp op 230Vac hiermee zou kunnen aansturen. Teken het volledige schema hiervan. </li>
+<li>Is er een beperking aan de schakelfrequentie hiervan? Verklaar.</li>
+<li>Verklaar de waarde van de weerstand die je in de basiskring hebt geschakeld van de transistor.</li>
 </ul>
 </p>
 </div>
