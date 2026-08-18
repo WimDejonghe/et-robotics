@@ -142,6 +142,7 @@ module.exports = {
         children: [
           '/l-spike/01-intro/README.md',
           '/l-spike/02-install/README.md',
+          '/l-spike/03-go/README.md',
         ]
       },
 
