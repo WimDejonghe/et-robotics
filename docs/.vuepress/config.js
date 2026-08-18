@@ -146,10 +146,19 @@ module.exports = {
         ]
       },
       {
-        text: 'Spike Actuator: Lichtmatrix en motor',
+        text: 'Spike Actuatoren',
         children: [
           '/m-spike2/01-matrix/README.md',
           '/m-spike2/02-motor/README.md',
+          
+        ]
+      },
+      {
+        text: 'Spike Sensoren',
+        children: [
+          '/n-sense/01-encoder/README.md',
+          '/n-sense/02-force/README.md',
+          '/n-sense/03-color/README.md',
           
         ]
       },
