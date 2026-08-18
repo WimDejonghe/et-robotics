@@ -145,6 +145,14 @@ module.exports = {
           '/l-spike/03-go/README.md',
         ]
       },
+      {
+        text: 'Spike Actuator: Lichtmatrix en motor',
+        children: [
+          '/m-spike2/01-matrix/README.md',
+          '/m-spike2/02-motor/README.md',
+          
+        ]
+      },
 
      
     ],
