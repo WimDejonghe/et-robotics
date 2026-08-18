@@ -187,6 +187,14 @@ module.exports = {
           
         ]
       },
+      {
+        text: 'Loops',
+        children: [
+          '/r-loop/01-info/README.md',
+
+          
+        ]
+      },
      
     ],
     sidebarDepth: 1,
