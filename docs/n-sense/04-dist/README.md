@@ -28,5 +28,5 @@ Opdracht:
 <p style="color:white; margin:10px">Afstand sensor of ultrasoon sensor. Leg uit hoe dit werkt. Hoe snel planten deze golven zich voort in onze atmosfeer? Kan dit ook in de ruimte worden gebruikt?</p>
 
 <p style="color:white; margin:10px">Welk dier uit de natuur gebruikt ook dit principe om te kijken in het donker?</p>
-
+</div>
 ***
