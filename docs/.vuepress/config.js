@@ -179,6 +179,14 @@ module.exports = {
           
         ]
       },
+      {
+        text: 'Random',
+        children: [
+          '/q-random/01-info/README.md',
+
+          
+        ]
+      },
      
     ],
     sidebarDepth: 1,
