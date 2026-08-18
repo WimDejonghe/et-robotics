@@ -163,6 +163,14 @@ module.exports = {
           
         ]
       },
+            {
+        text: 'Synchroon versus asynchroon',
+        children: [
+          '/o-sync/01-info/README.md',
+
+          
+        ]
+      },
 
      
     ],
