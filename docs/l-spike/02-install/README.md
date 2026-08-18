@@ -25,11 +25,11 @@ Kies **NIEUW PROJECT**.
 
 Kies **PYTHON** en klik **CREËREN**
 
-En programmeer en leer uit Kennisbank. Bovenaan zie je de toestand van de sensoren (nadat de HUB is gekoppeld via de USB kabel met de laptop). Onderaan zie je de Console (handig bij Print-commando’s)
+En programmeer en leer uit 'Kennisbank'. Bovenaan zie je de toestand van de sensoren (nadat de HUB is gekoppeld via de USB kabel met de laptop). Onderaan zie je de 'Console' (handig bij Print-commando’s)
 
 ![example image](./images/5.png "Installatie software")
 
-Uw verschillende codes kan je opslaan via Bestand : **Opslaan Als ……**
+Uw verschillende codes kan je opslaan via 'Bestand' : **Opslaan Als ……**
 
 
 
