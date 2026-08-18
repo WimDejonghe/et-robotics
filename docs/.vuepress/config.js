@@ -159,6 +159,7 @@ module.exports = {
           '/n-sense/01-encoder/README.md',
           '/n-sense/02-force/README.md',
           '/n-sense/03-color/README.md',
+          '/n-sense/04-dist/README.md',
           
         ]
       },
