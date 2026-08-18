@@ -195,6 +195,14 @@ module.exports = {
           
         ]
       },
+      {
+        text: 'Return-functies',
+        children: [
+          '/s-return/01-info/README.md',
+
+          
+        ]
+      },
      
     ],
     sidebarDepth: 1,
