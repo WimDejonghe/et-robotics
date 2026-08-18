@@ -3,30 +3,40 @@ mathjax:
   presets: '\def\lr#1#2#3{\left#1#2\right#3}'
 ---
 
-# LEGO Spike Prime Robot
+# Spike motor actuator
 
-![example image](./images/doos.png "De LEGO Spike Prime set.")
+![example image](./images/1.png "De LEGO Spike Prime motoren.")
 
-## Wat
+Er zijn twee types voorhanden. In de set zitten twee kleine motoren en één grote motor. Qua software kunnen ze gelijkaardig worden behandeld. Beide type bezitten ook een encoder. De motoren zijn dus niet aleen actuatoren, maar ook sensoren (positie bepaling, handige hulp zijn de bolletjes op rotor en stator!!). Zoek zelf eens op hoe een encoder werkt.
 
-Een LEGO® Education SPIKE™ Prime-robot is een programmeerbare robot die bestaat uit een intelligente hub (microcontroller), motoren, sensoren en LEGO Technic-bouwelementen. De robot kan geprogrammeerd worden met zowel blokken als Python, waardoor hij ideaal is om de stap te zetten van visueel programmeren naar tekstgebaseerd programmeren.
+## 2 kleine motoren
 
-![example image](./images/robot.png "De LEGO Spike Prime set.")
+![example image](./images/Afbeelding1.png "De LEGO Spike Prime motoren.")
 
-## Waarom
+Wat stel je vast? Wat doen de motoren? Verklaar wijzerzin (clockwise = CW), tegenwijzerzin (counter clockwise = CCW). Wacht de ene motor op de andere? Verklaar de drie parameters die worden meegegeven met de instructie.
 
-Tijdens de labo-opdrachten wordt de LEGO SPIKE Prime gebruikt om de basisprincipes van Python op een interactieve en praktijkgerichte manier aan te leren. Studenten passen programmeerconcepten zoals variabelen, voorwaarden, lussen, functies en het uitlezen van sensoren onmiddellijk toe op een echte robot. Hierdoor zien ze direct het resultaat van hun programma's, wat het leerproces motiverender maakt en een beter inzicht geeft in de werking van Python en robotica.
+## Uitdaging
 
-## Doel
+***
+<div style="background-color:darkgreen; text-align:left; vertical-align:left; padding:15px;">
+<p style="color:lightgreen; margin:10px">
+Opdracht: 
 
-Verzamel kennis door op papier uw bevindingen te noteren. Als leidraad kan er gebruik gemaakt worden van de vragen in dit document. Verzamel alle antwoorden en eigen bevindingen en verzamel dit papieren document in uw portfolio. Zie Uitdagingen in dit document.
+</p>
+<p style="color:white; margin:10px">Laat de motoren asynchroon tov elkaar draaien (zoek naar de juiste wachttijden (sleep)!!). Asynchroon wil zeggen dat de tweede motor maar pas start met draaien als de eerste motor is gestopt en beëindigd. Dit kan je hier alleen maar doen door gebruik te maken van een wachttijd tussen de twee statements.</p>
+</div>
 
-Maak dus een eigen cursus waarmee iemand aan de slag zou kunnen gaan om de LEGO Spike Prime en Python te leren.
+***
+***
+<div style="background-color:darkgreen; text-align:left; vertical-align:left; padding:15px;">
+<p style="color:lightgreen; margin:10px">
+Opdracht: 
 
-## Organisatie
+</p>
+<p style="color:white; margin:10px">Laat de motoren in tegengestelde richting draaien(de ene CW, de andere CCW) en asynchroon.</p>
+<p style="color:white; margin:10px">Doe dit in een oneindige lus.</p>
+</div>
 
-Je werkt per twee. Elk een eigen portfolio, elk een eigen verslag met opdrachten en inhoud.
+***
 
-## Orde
 
-**Zorg voor netheid en orde van de LEGO dozen!!!!!!!!!!!**
