@@ -137,6 +137,13 @@ module.exports = {
           '/k-sensoren/03-dist/README.md',
         ]
       },
+      {
+        text: 'LEGO Spike Prime',
+        children: [
+          '/l-spike/01-intro/README.md',
+          '/l-spike/02-install/README.md',
+        ]
+      },
 
      
     ],
