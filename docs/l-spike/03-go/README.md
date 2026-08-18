@@ -27,8 +27,6 @@ Zelfde opgave.
 
 ## Functie met parameter
 
-Je werkt per twee. Elk een eigen portfolio, elk een eigen verslag met opdrachten en inhoud.
-
 ![example image](./images/Afbeelding4.png "Python code.")
 
 ## Uitdaging
@@ -39,7 +37,7 @@ Je werkt per twee. Elk een eigen portfolio, elk een eigen verslag met opdrachten
 Opdracht: 
 
 </p>
-<p style="color:white; margin:10px">Wijzig de code zo dat de Hub <i>>jou</i>> <b>op naam</b> begroet in plaats van de wereld?</p>
+<p style="color:white; margin:10px">Wijzig de code zo dat de Hub <i>jou</i> <b>op naam</b> begroet in plaats van de wereld?</p>
 </div>
 
 ***
