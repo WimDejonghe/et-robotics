@@ -12,7 +12,7 @@ Zie de theorie over functies.
 ## Uitdaging
 
 ***
-<div style="background-color:pink; text-align:left; vertical-align:left; padding:15px;">
+<div style="background-color:darkred; text-align:left; vertical-align:left; padding:15px;">
 <p style="color:lightgreen; margin:10px">
 Opdracht: 
 
