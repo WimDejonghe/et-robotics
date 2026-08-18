@@ -171,7 +171,14 @@ module.exports = {
           
         ]
       },
+      {
+        text: 'Variabelen: globaal - lokaal',
+        children: [
+          '/p-var/01-info/README.md',
 
+          
+        ]
+      },
      
     ],
     sidebarDepth: 1,
