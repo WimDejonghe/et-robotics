@@ -235,6 +235,14 @@ module.exports = {
           
         ]
       },
+      {
+        text: 'Lijst-Array',
+        children: [
+          '/x-list/01-info/README.md',
+
+          
+        ]
+      },
      
     ],
     sidebarDepth: 1,
