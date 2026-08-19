@@ -5,7 +5,7 @@ mathjax:
 
 # Lijsten – Array
 
-Zie cursus theorie wat een `list` is. Andere benamingen hiervoor zijn `array` of `lijsten`. Bestudeer opnieuw de werking hiervan. Hoe declareer je dit? Wat kan dit bevatten? Wat is het verschil met een gewone variabele? ...
+Zie cursus theorie wat een `list` is. Andere benamingen hiervoor zijn `array` of `lijsten`. Bestudeer opnieuw de werking hiervan. Hoe declareer je dit? Wat kan dit bevatten? Wat is het verschil met een gewone variabele? Op welke manier voeg je elementen toe, haal je elementen eruit? Op welke manier selecteer je een specifiek element? ,  ...
 
 ![example image](./images/1.png "Python list")
 
@@ -19,7 +19,7 @@ Realisatie:
 </p>
 <p style="color:white; margin:10px">(11) Met de kennis van de knoppen zal je nu een lijst van 5 kleurblokjes inlezen in een array. Door telkens een kleurblokje voor de kleursensor te houden en op de R-knop te drukken (bevestiging) wordt die kleur opgeslagen in het volgende vrije element in de array. Zo worden vijf kleuren opgeslagen. Geef telkens een korte bevestiging door een hele korte beep. Geef een langere beep als de vijf kleuren allemaal zijn opgeslagen.</p>
 
-<p style="color:white; margin:10px">•	Print nadat de array is opgevuld het volledige array op de console. Volgende kleuren mogen niet geaccepteerd worden: geen kleur, wit en zwart en het moeten allemaal unieke kleuren zijn, dus twee of meer dezelfde kleuren mogen niet toegelaten worden (controle dus).</p>
+<p style="color:white; margin:10px">Print nadat de array is opgevuld het volledige array op de console. Volgende kleuren mogen niet geaccepteerd worden: geen kleur, wit en zwart en het moeten allemaal unieke kleuren zijn, dus twee of meer dezelfde kleuren mogen niet toegelaten worden (controle dus).</p>
 
 
 
