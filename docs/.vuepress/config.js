@@ -219,6 +219,14 @@ module.exports = {
           
         ]
       },
+      {
+        text: 'EduBot: Expansion',
+        children: [
+          '/v-ext/01-info/README.md',
+
+          
+        ]
+      },
      
     ],
     sidebarDepth: 1,
