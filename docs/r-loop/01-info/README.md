@@ -20,7 +20,7 @@ Opdracht:
 
 </p>
 <p style="color:white; margin:10px">Wijzig de code zodat er verschillende meerdere kleuren in de list colors staan.</p>
-<p style="color:white; margin:10px">•	Welk type variabele is color??!!!! Wat is het verschil met een gewone variabele zoals een integer?</p>
+<p style="color:white; margin:10px">Welk type variabele is color??!!!! Wat is het verschil met een gewone variabele zoals een integer?</p>
 
 </div>
 

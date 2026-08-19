@@ -203,6 +203,14 @@ module.exports = {
           
         ]
       },
+      {
+        text: 'EduBot: Base',
+        children: [
+          '/t-edubot/01-info/README.md',
+
+          
+        ]
+      },
      
     ],
     sidebarDepth: 1,
