@@ -227,6 +227,14 @@ module.exports = {
           
         ]
       },
+      {
+        text: 'Hub: Knoppen',
+        children: [
+          '/w-knop/01-info/README.md',
+
+          
+        ]
+      },
      
     ],
     sidebarDepth: 1,
