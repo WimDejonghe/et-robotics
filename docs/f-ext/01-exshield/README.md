@@ -163,7 +163,7 @@ def ToonLEDS (data):
 
 ```
 
-<div style="background-color:darkgreen; text-align:left; vertical-align:left; padding:15px;">
+<div style="background-color:darkred; text-align:left; vertical-align:left; padding:15px;">
 <p style="color:lightgreen; margin:10px">
 Opdracht3: Zorg dat je met voorgaande methode een analoge ingang inleest, en dat die waarde binair wordt weergegeven op de 8 LEDS (256 combinaties).
 </p>

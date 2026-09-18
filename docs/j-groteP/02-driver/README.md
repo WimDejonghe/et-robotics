@@ -99,7 +99,7 @@ In de figuur is een samenvatting gemaakt van de 4 verschillende indexen.
 
 ### Opdracht: Aansturen van een stappenmotor
 
-<div style="background-color:darkgreen; text-align:left; vertical-align:left; padding:15px;">
+<div style="background-color:darkred; text-align:left; vertical-align:left; padding:15px;">
 <p style="color:lightgreen; margin:10px">
 Opdracht: Aansturen van een stappenmotor.
 <ul style="color: white;">

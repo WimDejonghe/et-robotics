@@ -38,7 +38,7 @@ Opdracht2: Led dimmen met een trimmer. Maak een programma waarbij de helderheid 
 
 ***
 
-<div style="background-color:darkgreen; text-align:left; vertical-align:left; padding:15px;">
+<div style="background-color:darkred; text-align:left; vertical-align:left; padding:15px;">
 <p style="color:lightgreen; margin:10px">
 Opdracht3: 2 Leds dimmen met een trimmer. Zorg dat de twee Leds invers tov. elkaar dimmen. Verzorg met oscilloscoopbeelden en bepaal erop de frequentie en aan- en uit tijden, duty cycle.
 </p>
