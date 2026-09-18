@@ -157,8 +157,8 @@ Teken het schema, schrijf het programma (met commentaar), test en toon aan de do
 
 ***
 
-<div style="background-color:darkgreen; text-align:left; vertical-align:left; padding:15px;">
-<p style="color:lightgreen; margin:10px">
+<div style="background-color:darkred; text-align:left; vertical-align:left; padding:15px;">
+<p style="color:white; margin:10px">
 Opdracht: Maak een verkeerslicht.
 </p>
 </div>
