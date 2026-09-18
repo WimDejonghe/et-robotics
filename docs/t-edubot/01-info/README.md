@@ -24,7 +24,7 @@ Realisatie:
 
 ***
 ***
-<div style="background-color:darkred; text-align:left; vertical-align:left; padding:15px;">
+<div style="background-color:darkgreen; text-align:left; vertical-align:left; padding:15px;">
 <p style="color:lightgreen; margin:10px">
 Realisatie: 
 
@@ -36,7 +36,7 @@ Realisatie:
 
 ***
 ***
-<div style="background-color:darkred; text-align:left; vertical-align:left; padding:15px;">
+<div style="background-color:darkgreen; text-align:left; vertical-align:left; padding:15px;">
 <p style="color:lightgreen; margin:10px">
 Realisatie: 
 
