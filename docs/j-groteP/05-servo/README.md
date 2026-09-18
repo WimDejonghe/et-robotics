@@ -85,7 +85,7 @@ while True:
 Opdracht: Maak een programma waarbij je een servomotor gebruikt om een slagboom van een parkeergarage te besturen.
 <ul style="color: white;">
 <li>Maak gebruik van twee drukknoppen die zich op EPS32 shield bevinden. Met één knop open je de slagboom en met de andere knop sluit je de slagboom.</li>
-<li>Zorg er ook voor dat je externe interrupts gebruikt voor de knoppen en dat je anti-dender voorziet voor de drukknoppen.</li>
+
 <li>Laat het resultaat aan de docent zien.</li>
 
 </ul>
