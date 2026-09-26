@@ -140,6 +140,24 @@ while True:
 ```
 De toestand van de drukknop wordt gelezen en wordt onmiddelijk toegekend aan de toestand van de digitale uitgang. 
 
+Het zelfde resultaat kan bekomen worden met een selectie-statement in Python. Het statement `IF`. Meer info kan gevonden worden op :[MicroPython](https://et-robotics.netlify.app/arduino_c/)
+
+
+
+```python
+from machine import Pin
+
+led_onboard = Pin(13, Pin.OUT, value=0)    # create output pin on GPIO13, by start is the pin Low
+drukknop = Pin(21, Pin.IN)      # create input pin on GPIO21
+while True:                         #herhaal volgend stuk code oneindig lang
+    if drukknop.value() == False:   #drukknop ingedrukt?
+      led_onboard.value(True)       #Ja => LED aan
+    else:                           
+      led_onboard.value(False)      #Nee => LED uit
+
+```
+
+
 > :bulb: **Tip:** Wat zijn de bevindingen? Wanneer licht de LED op? Bij het drukken of niet drukken op de drukknop? Welke conclusie kan hier worden getrokken?
 
 ::: tip
@@ -179,6 +197,35 @@ Opdracht: Digitale ingang tellen. </p>
 Bij de elfde keer drukken gaat de LED weer uit en begint alles opnieuw, 10 keer LED 1 keer aan, .... Leg duidelijk uit hoe een flankdetectie werkt en wat dender is!
 </p>
 </div>
+
+Hulp nodig? Klik op details voor extra info:
+
+::: details
+Werking van de code (uitleg)
+
+Dit stukje MicroPython telt hoe vaak drukknop sw1 wordt ingedrukt, en steekt LED led1 aan telkens de 10e druk gebeurt.
+
+- nieuweWaardeSW1 leest telkens de huidige stand van de knop.
+- vorigeWaardeSW1 onthoudt de stand van de vorige lus-iteratie.
+- Door beide te vergelijken, detecteert de code een dalende flank: het moment waarop de knop van niet ingedrukt (True) naar ingedrukt (False) gaat. Dit voorkomt dat één druk op de knop meerdere keren geteld wordt zolang je hem ingedrukt houdt.
+- Bij elke gedetecteerde druk wordt teller verhoogd. Bij de 10e keer gaat led1 aan en wordt de teller terug op 0 gezet; anders gaat de LED uit (of blijft ze uit).
+- Cruciaal: na elke lus-iteratie, ongeacht of er een druk gedetecteerd werd, moet vorigeWaardeSW1 bijgewerkt worden naar de huidige waarde. Zo is de vergelijking bij de volgende iteratie weer correct.
+
+```python
+from machine import Pin
+
+led_onboard = Pin(13, Pin.OUT, value=0)    # create output pin on GPIO13, by start is the pin Low
+drukknop = Pin(21, Pin.IN)      # create input pin on GPIO21
+while True:                         #herhaal volgend stuk code oneindig lang
+    if drukknop.value() == False:   #drukknop ingedrukt?
+      led_onboard.value(True)       #Ja => LED aan
+    else:                           
+      led_onboard.value(False)      #Nee => LED uit
+
+```
+
+
+:::
 
 
 
