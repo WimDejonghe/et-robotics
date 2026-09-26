@@ -94,13 +94,6 @@ Samengevat krijgen we deze opstellingen met pull-up weerstanden. Uitzonderlijk k
 Een pull-up weerstand wordt het meest gebruikt. Het nadeel is dat men een 1 krijgt als de drukknop niet is ingedrukt en een 0 als de drukknop is ingedrukt. Je kan dit zien als een NEGATIEVE LOGICA of een ACTIEF LAGE manier om een drukknop te gebruiken.
 :::
 
-## Aansluiten van sensoren (bv drukknoppen) met een pulldown weerstand
-
-Het schema om een drukknop aan te sluiten aan een microcontroller met een pull-down weerstand is weergegeven in de volgende figuur.
-
-![example image](./images/schema5.png "Aansluiten van een drukknop met een pull-down weerstand.")
-
-Als je naar het schema kijkt wordt er niet alleen een drukknop gebruikt maar ook een weerstand. Deze weerstand noemt een pull-down weerstand omdat hij de ingang aan 0V verbindt als de drukknop niet is ingedrukt.
 
 ## pinMode
 
@@ -186,6 +179,60 @@ Visualiseer het resultaat met een oscilloscoop. Leg de werking uit van de oscill
 
 ***
 
+## Tellen bij een drukknop.
+
+Het spanningsverloop aan de ingangspin ziet er dan als volgt uit:
+
+![example image](./images/ut.png "Spanningsverloop bij bedienen drukknop.")
+
+Dit toont het geïdealiseerde signaal (zonder rekening te houden met contactdender/bounce, wat in de praktijk ook optreedt bij mechanische drukknoppen):
+
+- In rust (knop los): de pin staat hoog (3.3V), omdat de pull-up weerstand de lijn naar boven trekt.
+- Bij het indrukken: de knop verbindt de pin met massa, waardoor de spanning naar 0V valt — dit is de dalende flank die de code detecteert (nieuweWaardeSW1 == False en vorigeWaardeSW1 == True).
+- Bij het loslaten: de pin gaat terug naar 3.3V — de stijgende flank, die in deze code niet apart afgehandeld wordt.
+
+Dit is precies waarom de code met vorigeWaardeSW1 werkt: door de vorige en de huidige waarde te vergelijken, wordt enkel het moment van overgang (het indrukken) geteld, en niet elke lus-iteratie zolang de knop ingedrukt blijft.
+
+**Werking van de code (uitleg)**
+
+Dit stukje MicroPython telt hoe vaak drukknop sw1 wordt ingedrukt, en steekt LED led1 aan telkens de 10e druk gebeurt.
+
+- nieuweWaardeSW1 leest telkens de huidige stand van de knop.
+- vorigeWaardeSW1 onthoudt de stand van de vorige lus-iteratie.
+- Door beide te vergelijken, detecteert de code een dalende flank: het moment waarop de knop van niet ingedrukt (True) naar ingedrukt (False) gaat. Dit voorkomt dat één druk op de knop meerdere keren geteld wordt zolang je hem ingedrukt houdt.
+- Bij elke gedetecteerde druk wordt teller verhoogd. Bij de 10e keer gaat led1 aan en wordt de teller terug op 0 gezet; anders gaat de LED uit (of blijft ze uit).
+- Cruciaal: na elke lus-iteratie, ongeacht of er een druk gedetecteerd werd, moet vorigeWaardeSW1 bijgewerkt worden naar de huidige waarde. Zo is de vergelijking bij de volgende iteratie weer correct.
+
+**Opdracht voor de student**
+
+Opdracht: Onderstaande code zou een drukknoptelling moeten bijhouden en na 10 keer drukken de LED laten oplichten. De code compileert en start op, maar werkt niet correct: na de eerste druk op de knop reageert het programma niet meer op verdere drukken.
+
+Zoek de fout in de code en herstel de werking zodat de teller bij elke druk op de knop correct verhoogt, en de LED effectief aangaat bij de 10e druk.
+
+```python
+nieuweWaardeSW1 = True
+vorigeWaardeSW1 = True
+teller = 0
+
+while True:
+    nieuweWaardeSW1 = sw1.value()
+    if ((nieuweWaardeSW1 == False) and (vorigeWaardeSW1 == True)):
+        teller += 1
+        if (teller == 10):
+            led1.value(True)
+            teller = 0
+        else:
+            led1.value(False)
+        vorigeWaardeSW1 = nieuweWaardeSW1
+
+```
+
+:::tip
+kijk goed naar de inspringing (indentation) van de code en denk na over wanneer vorigeWaardeSW1 bijgewerkt moet worden.
+:::
+
+
+
 <div style="background-color:darkred; text-align:left; vertical-align:left; padding:15px;">
 <p style="color:lightgreen; margin:10px">
 Opdracht: Digitale ingang tellen. </p>
@@ -198,34 +245,7 @@ Bij de elfde keer drukken gaat de LED weer uit en begint alles opnieuw, 10 keer 
 </p>
 </div>
 
-Hulp nodig? Klik op details voor extra info:
 
-::: details
-Werking van de code (uitleg)
-
-Dit stukje MicroPython telt hoe vaak drukknop sw1 wordt ingedrukt, en steekt LED led1 aan telkens de 10e druk gebeurt.
-
-- nieuweWaardeSW1 leest telkens de huidige stand van de knop.
-- vorigeWaardeSW1 onthoudt de stand van de vorige lus-iteratie.
-- Door beide te vergelijken, detecteert de code een dalende flank: het moment waarop de knop van niet ingedrukt (True) naar ingedrukt (False) gaat. Dit voorkomt dat één druk op de knop meerdere keren geteld wordt zolang je hem ingedrukt houdt.
-- Bij elke gedetecteerde druk wordt teller verhoogd. Bij de 10e keer gaat led1 aan en wordt de teller terug op 0 gezet; anders gaat de LED uit (of blijft ze uit).
-- Cruciaal: na elke lus-iteratie, ongeacht of er een druk gedetecteerd werd, moet vorigeWaardeSW1 bijgewerkt worden naar de huidige waarde. Zo is de vergelijking bij de volgende iteratie weer correct.
-
-```python
-from machine import Pin
-
-led_onboard = Pin(13, Pin.OUT, value=0)    # create output pin on GPIO13, by start is the pin Low
-drukknop = Pin(21, Pin.IN)      # create input pin on GPIO21
-while True:                         #herhaal volgend stuk code oneindig lang
-    if drukknop.value() == False:   #drukknop ingedrukt?
-      led_onboard.value(True)       #Ja => LED aan
-    else:                           
-      led_onboard.value(False)      #Nee => LED uit
-
-```
-
-
-:::
 
 
 
