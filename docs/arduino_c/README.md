@@ -147,7 +147,7 @@ Enkele voorbeelden met telkens enkele vragen die door de lezer dienen opgelost t
 - **`if`-statement:**
 ![example image](./images/if.png "if selectie.")
 
-<div style="background-color:darkgreen; text-align:left; vertical-align:left; padding:15px;">
+<div style="background-color:darkgray; text-align:left; vertical-align:left; padding:15px;">
 <p style="color:lightgreen; margin:10px">
 Opdracht: Los volgende vragen op ivm de if-selectie:
 <ul style="color: white;">
@@ -170,7 +170,7 @@ Opdracht: Los volgende vragen op ivm de if-selectie:
 - **`if` en `else`:**
 ![example image](./images/ifelse.png "if-else selectie.")
 
-<div style="background-color:darkgreen; text-align:left; vertical-align:left; padding:15px;">
+<div style="background-color:darkgray; text-align:left; vertical-align:left; padding:15px;">
 <p style="color:lightgreen; margin:10px">
 Opdracht: Los volgende vragen op ivm de if_else-selectie:
 <ul style="color: white;">
@@ -190,7 +190,7 @@ Opdracht: Los volgende vragen op ivm de if_else-selectie:
 
 ![example image](./images/elif.png "elif selectie.")
 
-<div style="background-color:darkgreen; text-align:left; vertical-align:left; padding:15px;">
+<div style="background-color:darkgray; text-align:left; vertical-align:left; padding:15px;">
 <p style="color:lightgreen; margin:10px">
 Opdracht: Los volgende vragen op ivm de elif-selectie:
 <ul style="color: white;">
@@ -211,7 +211,7 @@ Opdracht: Los volgende vragen op ivm de elif-selectie:
 
 ![example image](./images/elif_fout.png "elif selectie.")
 
-<div style="background-color:darkgreen; text-align:left; vertical-align:left; padding:15px;">
+<div style="background-color:darkgray; text-align:left; vertical-align:left; padding:15px;">
 <p style="color:lightgreen; margin:10px">
 Opdracht: Los volgende vragen op ivm de elif-selectie:
 <ul style="color: white;">
