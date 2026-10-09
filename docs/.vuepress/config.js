@@ -91,7 +91,7 @@ module.exports = {
         children: [
          
           '/e-ana/01-ana-in/README.md',
-          '/e-ana/02-ana-out/README.md',         
+                 
                    
         ]
       },
