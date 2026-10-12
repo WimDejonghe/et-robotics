@@ -51,7 +51,8 @@ sw2 = Pin(34, Pin.IN)
 sw3 = Pin(25, Pin.IN)
 sw4 = Pin(26, Pin.IN)
 
-potentiometer = ADC(36)
+#variabele maken met de naam potentiometer
+potentiometer = ADC(Pin(36),  atten=ADC.ATTN_11DB)#potentiometer zit op pin 36
 potWaarde = 0
 
 while True:
