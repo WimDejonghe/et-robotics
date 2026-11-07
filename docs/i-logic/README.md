@@ -151,7 +151,7 @@ De **XNOR**-poort (Exclusieve-NOR) is het tegenovergestelde van de XOR-poort. De
 Dit zijn de basislogische poorten die worden gebruikt in digitale schakelingen. Elke poort kan worden gecombineerd om complexe logische functies te creëren.
 
 ***
-<div style="background-color:darkgreen; text-align:left; vertical-align:left; padding:15px;">
+<div style="background-color:darkred; text-align:left; vertical-align:left; padding:15px;">
 <p style="color:lightgreen; margin:10px">
 Opdracht: Maak van iedere logische poort functie een werkend programma op de microcontroller zodat drukknoppen gebruikt worden als input voor een logische poort en een LED de uitgang. Combineer alle poorten in één en hetzelfde programma. Met twee drukknoppen die alle inputs van alle poorten bedienen en er zijn LED's op de shield voldoende om voor iedere output een LED aan te sturen. Je mag hier geen gebruik maken van IF-statements en ook niet van rekenkundige operatoren.
 
