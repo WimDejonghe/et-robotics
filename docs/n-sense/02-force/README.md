@@ -44,7 +44,7 @@ Opdracht:
 </p>
 <p style="color:white; margin:10px">Stuur een motor aan en regel de snelheid van de motor met de twee bedieningsknoppen (links – rechts van de powerknop). Telkens je op een knop drukt verhoogt/verlaagt de snelheid van de motor met een vaste stap. Als je blijft de snelheid verlagen tot stilstand en nog verder drukt op verlagen dan begint de motor in de andere richting in snelheid toe te nemen. </p>
 <p style="color:white; margin:10px">[   if button.pressed(button.RIGHT):   ]</p>
-<p style="color:white; margin:10px">Zie meer info omtrent knoppen op de Hub in cursus hoofdstuk <strong>Hub: Knoppen <strong></p>
+<p style="color:white; margin:10px">Zie meer info omtrent knoppen op de Hub in cursus hoofdstuk <strong>Hub: Knoppen </strong></p>
 
 </div>
 
