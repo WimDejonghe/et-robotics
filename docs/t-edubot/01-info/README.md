@@ -41,7 +41,7 @@ Realisatie:
 Realisatie: 
 
 </p>
-<p style="color:white; margin:10px">(3) Maak een uitbreiding op het vorige zodat de robot daarna exact een bocht maakt van 90°.(meet de wiel tussenafstand : hoeveel rotaties moet het ene wiel draaien als het andere stilstaat om het voertuig 90° te laten draaien?). Let op: Als je niet ASYNCHROON werkt, dan zal je genoeg SLEEP tijd moeten gebruiken tussen de verschillende stappen om te voorkomen dat de volgende stap al wordt uitgevoerd zonder dat de vorige is afgewerkt!! Een andere oplossing is natuurlijk statements ASYNCHROON  laten uitvoeren. Verklaar.</p>
+<p style="color:white; margin:10px">(3) Maak een uitbreiding op het vorige zodat de robot daarna exact een bocht maakt van 90°.(meet de wiel tussenafstand : hoeveel rotaties moet het ene wiel draaien als het andere stilstaat om het voertuig 90° te laten draaien? Maak hiervoor de nodige berekeningen&tekeningen en neem deze op in uw verslag). Let op: Als je niet ASYNCHROON werkt, dan zal je genoeg SLEEP tijd moeten gebruiken tussen de verschillende stappen om te voorkomen dat de volgende stap al wordt uitgevoerd zonder dat de vorige is afgewerkt!! Een andere oplossing is natuurlijk statements ASYNCHROON  laten uitvoeren. Verklaar.</p>
 
 
 </div>
