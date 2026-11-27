@@ -18,6 +18,8 @@ Realisatie:
 
 </p>
 <p style="color:white; margin:10px">(5) Maak een programma waarbij de robot vooruit kan rijden tot de rand van de tafel. Bij detectie rand, stopt de robot en maakt een haakse (90°) bocht achteruit en rijdt dan nadien terug verder vooruit tot de volgende rand … (blijft dit herhalen).</p>
+<p style="color:white; margin:10px">Het detecteren van de rand doe je best door de kleursensor niet te laten werken om kleur te detecteren, maar door het teruggekaatst licht, reflectie, te meten!!</p>
+
 
 
 </div>
